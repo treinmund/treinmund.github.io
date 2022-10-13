@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
 
+# Navigation
 website:
 #  title: "treinmund.github.io"
   navbar:
@@ -12,6 +13,7 @@ website:
       - href: reinmund_CV.pdf
         text: Curriculum vitae
 
+# Appearance
 format:
   html:
     theme: minty
@@ -19,3 +21,6 @@ format:
     toc: true
     mainfont: sans-serif
     fontsize: 1em
+
+# SEO Related
+google_site_verification : "w9datQfVVfcFiSwl375kgWpBGTslYw1uIRqrY6zv9Bg"
