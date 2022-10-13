@@ -7,10 +7,10 @@ website:
   navbar:
     background: primary
     left:
-      - href: reinmund_CV.pdf
-        text: Curriculum vitae
       - href: index.qmd
         text: Home
+      - href: reinmund_CV.pdf
+        text: Curriculum vitae
 
 format:
   html:
