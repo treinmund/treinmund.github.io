@@ -3,18 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "treinmund.github.io"
+#  title: "treinmund.github.io"
   navbar:
+    background: primary
     left:
+      - href: reinmund_CV.pdf
+        text: Curriculum vitae
       - href: index.qmd
         text: Home
-      - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
-
-
-
+    mainfont: sans-serif
+    fontsize: 1em

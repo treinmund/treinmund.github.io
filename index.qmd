@@ -1,7 +1,39 @@
 ---
-title: "treinmund.github.io"
+title: "Tyler Reinmund"
+image: headshot.JPG
+about:
+  template: solana
+  image-shape: rounded
+  image-width: 12em
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/tyler-reinmund/
+    - text: Email
+      icon: envelope-fill
+      href: mailto:tyler.reinmund@jesus.ox.ac.uk
 ---
 
-This is a Quarto website.
+I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the University of Oxford. Additionally, I co-lead the [Responsible Technology Institute Student Network](https://www.rti.ox.ac.uk/student-network/), an interdisciplinary and international student-led organisation that connects graduate students who share an interest in responsible innovation.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people. From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science systems.
+
+---
+
+### Education
+
+**DPhil in Computer Science**, 2021 -- Present  
+University of Oxford | Oxford, UK
+
+**MSc in Science, Technology, & Society**, 2020 -- 2021  
+University College London | London, UK
+
+**Master of Business Administration**, 2019 -- 2020  
+University of Oxford | Oxford, UK
+
+**BS in Biomedical Engineering**, 2012 -- 2016  
+Rensselaer Polytechnic Institute | Troy, US
+
+---
+
+My academic supervisors are [Marina Jirotka](https://www.cs.ox.ac.uk/people/marina.jirotka/) and [Lars Kunze](https://ori.ox.ac.uk/people/lars-kunze/), and my studies are co-funded by Newton Europe and the Oxford-Singapore Human-Machine Collaboration Programme, supported by a gift from Amazon Web Services.
