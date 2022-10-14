@@ -11,7 +11,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: reinmund_CV.pdf
+      - href: CV-10-22.pdf
         text: Curriculum vitae
 
 # Appearance
