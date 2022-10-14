@@ -14,6 +14,8 @@ about:
       href: mailto:tyler.reinmund@jesus.ox.ac.uk
 ---
 
+Test
+
 I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the University of Oxford. Additionally, I co-lead the [Responsible Technology Institute Student Network](https://www.rti.ox.ac.uk/student-network/), an interdisciplinary and international student-led organisation that connects graduate students who share an interest in responsible innovation.
 
 My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people. From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science systems.

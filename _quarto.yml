@@ -7,7 +7,6 @@ website:
 #  title: Put site title here
   navbar:
     background: primary
-    search: false
     left:
       - href: index.qmd
         text: Home
