@@ -5,22 +5,31 @@ project:
 # Navigation
 website:
 #  title: Put site title here
+  favicon: assets/favicon.png
+  description: Tyler Reinmund's personal site.
+  search: false
   navbar:
     background: primary
     left:
       - href: index.qmd
         text: Home
-      - href: CV-10-22.pdf
+      - href: about.qmd
+        text: About
+      - href: assets/CV-10-22.pdf
         text: Curriculum vitae
 
 # Appearance
 format:
   html:
-    theme: minty
+    theme: journal
     css: styles.css
     toc: true
-    mainfont: sans-serif
+    link-external-newwindow: true
+    citations-hover: true
+    mainfont: helvetica
     fontsize: 1em
-
-# SEO Related
-google_site_verification : "w9datQfVVfcFiSwl375kgWpBGTslYw1uIRqrY6zv9Bg"
+    page-layout: full
+    
+cookie-consent:
+   type: express
+   style: simple

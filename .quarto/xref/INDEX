@@ -10,5 +10,14 @@
   },
   "404.qmd": {
     "404.html": "ed2a1e18"
+  },
+  "_pages/index.qmd": {
+    "index.html": "4da3aca9"
+  },
+  "publications.qmd": {
+    "publications.html": "510b698f"
+  },
+  "publications.ipynb": {
+    "publications.html": "306cb21d"
   }
 }

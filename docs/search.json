@@ -1,9 +1,30 @@
 [
   {
+    "objectID": "_pages/index.html",
+    "href": "_pages/index.html",
+    "title": "Tyler Reinmund",
+    "section": "",
+    "text": "My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people. From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science systems.\n\n\nEducation\nDPhil in Computer Science, 2021 – Present\nUniversity of Oxford | Oxford, UK\nMSc in Science, Technology, & Society, 2020 – 2021\nUniversity College London | London, UK\nMaster of Business Administration, 2019 – 2020\nUniversity of Oxford | Oxford, UK\nBS in Biomedical Engineering, 2012 – 2016\nRensselaer Polytechnic Institute | Troy, US\n\nMy academic supervisors are Marina Jirotka and Lars Kunze, and my studies are co-funded by Newton Europe and the Oxford-Singapore Human-Machine Collaboration Programme, supported by a gift from Amazon Web Services."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Tyler Reinmund",
     "section": "",
-    "text": "My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people. From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science systems.\n\n\nEducation\nDPhil in Computer Science, 2021 – Present\nUniversity of Oxford | Oxford, UK\nMSc in Science, Technology, & Society, 2020 – 2021\nUniversity College London | London, UK\nMaster of Business Administration, 2019 – 2020\nUniversity of Oxford | Oxford, UK\nBS in Biomedical Engineering, 2012 – 2016\nRensselaer Polytechnic Institute | Troy, US\n\nMy academic supervisors are Marina Jirotka and Lars Kunze, and my studies are co-funded by Newton Europe and the Oxford-Singapore Human-Machine Collaboration Programme, supported by a gift from Amazon Web Services."
+    "text": "My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people.\nFrom this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science systems."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "Research Interests\n\nSociotechnical systems\nApplied data science\nRequirements engineering\n\n\n\nEducation\nDPhil in Computer Science, 2021 – Present\nUniversity of Oxford | Oxford, UK\nMSc in Science, Technology, & Society, 2020 – 2021\nUniversity College London | London, UK\nMaster of Business Administration, 2019 – 2020\nUniversity of Oxford | Oxford, UK\nBS in Biomedical Engineering, 2012 – 2016\nRensselaer Polytechnic Institute | Troy, US\n\n\nAcknowledgements\nMy academic supervisors are Marina Jirotka and Lars Kunze, and my studies are co-funded by Newton Europe and the Oxford-Singapore Human-Machine Collaboration Programme, supported by a gift from Amazon Web Services."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "publications",
+    "section": "",
+    "text": "{%- for y in page.years %}\n\n{% bibliography -f papers -q @* [year={{y}}]* %} {% endfor %}"
   }
 ]
