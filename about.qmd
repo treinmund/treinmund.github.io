@@ -1,8 +1,11 @@
-I am a DPhil (PhD) candidate at the University of Oxford. Additionally, I co-lead the [Responsible Technology Institute Student Network](https://www.rti.ox.ac.uk/student-network/), an interdisciplinary and international student-led organisation that connects graduate students who share an interest in responsible innovation.
+I am a DPhil (PhD) candidate in Computer Science at the University of Oxford. I am based in the [Human-Centred Computing](https://hcc.cs.ox.ac.uk/) research group.
+
+Additionally, I lead the [Responsible Technology Institute Student Network](https://www.rti.ox.ac.uk/student-network/), an interdisciplinary and international student-led organisation that connects graduate students who share an interest in responsible innovation.
 
 ### Research Interests
 
 - Sociotechnical systems
+- Human-automation interaction
 - Applied data science
 - Requirements engineering
 

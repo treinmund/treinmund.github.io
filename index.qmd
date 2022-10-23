@@ -5,6 +5,7 @@ about:
   template: solana
   image-shape: rounded
   image-width: 12em
+
 ---
 
 I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/).
@@ -16,13 +17,24 @@ From this understanding, I study how we can direct the practice of technology de
 {{< pagebreak >}}
 
 ```{=html}
-<a class="btn btn-outline-dark", href="https://twitter.com/tyler_reinmund" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
-</a>
+<link rel="stylesheet" href="/_extensions/academicons-1.9.2/css/academicons.min.css"/>
+
+<div style="margin:0 auto;">
+
 <a class="btn btn-outline-dark", href="https://www.linkedin.com/in/tyler-reinmund/" target="_blank" rel="noopener noreferrer">
     <i class="bi bi-linkedin" role='img' aria-label='LinkedIn'></i>
 </a>
+
 <a class="btn btn-outline-dark", href="mailto:tyler.reinmund@jesus.ox.ac.uk" target="_blank" rel="noopener noreferrer">
     <i class="ai bi-envelope" role='img' aria-label='email'></i>
 </a>
+
+<a class="btn btn-outline-dark", href="https://twitter.com/tyler_reinmund" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
+</a>
+
+<a class="btn btn-outline-dark", href="assets/CV-10-22.pdf" target="_blank" rel="noopener noreferrer">
+    <i class="ai ai-cv-square" role='img' aria-label='CV'></i>
+</a>
+</div>
 ```

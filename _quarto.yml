@@ -9,14 +9,12 @@ website:
   description: Tyler Reinmund's personal site.
   search: false
   navbar:
-    background: primary
+    background: info
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: assets/CV-10-22.pdf
-        text: Curriculum vitae
 
 # Appearance
 format:
