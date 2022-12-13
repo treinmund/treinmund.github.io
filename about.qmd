@@ -4,9 +4,9 @@ Additionally, I lead the [Responsible Technology Institute Student Network](http
 
 ### Research Interests
 
+- Human-centered data science
+- Human-AI interaction
 - Sociotechnical systems
-- Human-automation interaction
-- Applied data science
 - Requirements engineering
 
 ### Education
