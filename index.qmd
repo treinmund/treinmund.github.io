@@ -33,7 +33,7 @@ From this understanding, I study how we can direct the practice of technology de
     <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
 </a>
 
-<a class="btn btn-outline-dark", href="assets/CV-10-22.pdf" target="_blank" rel="noopener noreferrer">
+<a class="btn btn-outline-dark", href="assets/CV-01-23.pdf" target="_blank" rel="noopener noreferrer">
     <i class="ai ai-cv-square" role='img' aria-label='CV'></i>
 </a>
 </div>
