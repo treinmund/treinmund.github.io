@@ -16,7 +16,7 @@ website:
       - href: about.qmd
         text: About
       - href: hai-bibliography.qmd
-        text: Human-AI Interaction
+        text: ML in Practice
 
 # Appearance
 format:
