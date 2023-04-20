@@ -6,8 +6,7 @@ Additionally, I lead the [Responsible Technology Institute Student Network](http
 
 - Human-centered data science
 - Human-AI interaction
-- Sociotechnical systems
-- Requirements engineering
+- Sociotechnical studies
 
 ### Education
 
