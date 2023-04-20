@@ -12,7 +12,7 @@ I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac
 
 My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people.
 
-From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of data science software.
+From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of machine learning systems.
 
 {{< pagebreak >}}
 
