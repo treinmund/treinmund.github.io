@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+
+// Colors
+$dark-gray: #353535;
+$dark-teal: #3C6E71;
+$light-gray: #FFFFFF;
+$gray: #D9D9D9;
+$blue-gray: #284B63;
+$link: #6082B6;
+$white-smoke: #F5F5F5;
+
+// Fonts
+$font-size: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+
+// Base document colors
+$navbar-bg: $blue-gray;
+$navbar-fg: $light-gray;
+$navbar-hl: $gray;
+$body-bg: $white-smoke;
+$link-color: $link;
+
+/*-- scss:rules --*/
+.anchored {
+  margin-bottom: 0.5em;
+}

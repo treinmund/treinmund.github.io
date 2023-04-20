@@ -21,14 +21,16 @@ website:
 # Appearance
 format:
   html:
-    theme: journal
+    theme:
+      - mystyles.scss
     css: styles.css
     toc: true
     link-external-newwindow: true
     citations-hover: true
-    mainfont: helvetica
+    mainfont: Raleway
     fontsize: 1em
     page-layout: full
+
     
 cookie-consent:
    type: express
