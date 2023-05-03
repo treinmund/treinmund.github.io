@@ -24,3 +24,14 @@ $link-color: $link;
 .anchored {
   margin-bottom: 0.5em;
 }
+
+.activities {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.activity {
+  font-size: large;
+  font-weight: 1200;
+}
