@@ -13,8 +13,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: hai-bibliography.qmd
         text: ML in Practice
 
@@ -30,7 +28,6 @@ format:
     mainfont: Raleway
     fontsize: 1em
     page-layout: full
-
     
 cookie-consent:
    type: express

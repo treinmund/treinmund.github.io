@@ -8,15 +8,9 @@ about:
 
 ---
 
-I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/).
-
-My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people.
-
-From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of machine learning systems.
-
-{{< pagebreak >}}
 
 ```{=html}
+<div class="social">
 <link rel="stylesheet" href="/_extensions/academicons-1.9.2/css/academicons.min.css"/>
 
 <div style="margin:0 auto;">
@@ -37,4 +31,85 @@ From this understanding, I study how we can direct the practice of technology de
     <i class="ai ai-cv-square" role='img' aria-label='CV'></i>
 </a>
 </div>
+</div>
+<br/>
 ```
+
+
+
+I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/).
+
+My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people.
+
+From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of machine learning systems.
+
+
+
+```{=html}
+<br/>
+<div class="activities">
+<div class="interests">
+<span class="activity">Interests</span>
+<ul>
+<li>
+Human-centered data science
+</li>
+<li>
+Human-AI interaction
+</li>
+<li>
+Sociotechnical studies
+</li>
+</ul>
+</div>
+<div class="education">
+<span class="activity">Education</span>
+<div class="education-element">
+<div class="icon">
+<p><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></p>
+</div>
+<div class="degree">
+DPhil in Computer Science, Expected 2024
+</div>
+<div class="school">
+University of Oxford
+</div>
+</div>
+<div class="education-element">
+<div class="icon">
+<p><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></p>
+</div>
+<div class="degree">
+MSc in Science, Technology, and Society, 2021
+</div>
+<div class="school">
+University College London
+</div>
+<div class="education-element">
+<div class="icon">
+<p><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></p>
+</div>
+<div class="degree">
+Master of Business Administration, 2020
+</div>
+<div class="school">
+University of Oxford
+</div>
+<div class="education-element">
+<div class="icon">
+<p><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></p>
+</div>
+<div class="degree">
+B.S. in Biomedical Engineering, 2016
+</div>
+<div class="school">
+Rensselaer Polytechnic Institute
+</div>
+</div>
+</div>
+</div>
+```
+
+
+{{< pagebreak >}}
+

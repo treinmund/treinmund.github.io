@@ -70,7 +70,7 @@ datatable(haibib,
                          class = "display",
                          buttons = "excel"
                          #scrollY = 200,
-                         #scrollX = FALSE,
+                         #scrollX = TRUE,
                          #scroller = TRUE
                          )
           )
