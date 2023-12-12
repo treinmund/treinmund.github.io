@@ -23,9 +23,9 @@
   {
     "objectID": "publications.html",
     "href": "publications.html",
-    "title": "publications",
+    "title": "Research",
     "section": "",
-    "text": "{%- for y in page.years %}\n\n{% bibliography -f papers -q @* [year={{y}}]* %} {% endfor %}"
+    "text": "Conference Papers\nReinmund, Tyler. 2023. “Designing Data Science Software for Social Care Organisations.” In Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3544549.3577062."
   },
   {
     "objectID": "hai-bibliography.html",

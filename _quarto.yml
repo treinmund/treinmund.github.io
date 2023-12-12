@@ -13,8 +13,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: hai-bibliography.qmd
-        text: ML in Practice
+      - href: publications.qmd
+        text: Research
 
 # Appearance
 format:
