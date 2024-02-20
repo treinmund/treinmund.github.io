@@ -3,10 +3,8 @@ title: "Research"
 output: html_document
 ---
 
-### Journal Articles
+**Reinmund, Tyler**, Lars Kunze, and Marina Jirotka. 2024. "Transitioning Towards a Proactive Practice: A Longitudinal Field Study on the Implementation of a ML System in Adult Social Care" *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*
 
 **Reinmund, Tyler**, Pericle Salvini, Lars Kunze, Marina Jirotka, and Alan F. T. Winfield. 2023. "Variable Autonomy Through Responsible Robotics: Design Guidelines and Research Agenda." *ACM Transactions on Human-Robot Interaction*. <https://doi.org/10.1145/3636432>.
-
-### Conference Papers
 
 **Reinmund, Tyler**. 2023. "Designing Data Science Software for Social Care Organisations." In *Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*. <https://doi.org/10.1145/3544549.3577062>.
