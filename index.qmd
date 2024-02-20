@@ -27,7 +27,7 @@ about:
     <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
 </a>
 
-<a class="btn btn-outline-dark", href="assets/CV-12-23.pdf" target="_blank" rel="noopener noreferrer">
+<a class="btn btn-outline-dark", href="assets/CV-02-24.pdf" target="_blank" rel="noopener noreferrer">
     <i class="ai ai-cv-square" role='img' aria-label='CV'></i>
 </a>
 </div>
