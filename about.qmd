@@ -2,7 +2,7 @@
 title: About me
 ---
 
-I am a DPhil (PhD) candidate in Computer Science at the University of Oxford. I am based in the [Human-Centred Computing](https://hcc.cs.ox.ac.uk/) research theme
+I am a DPhil (PhD) candidate in Computer Science at the University of Oxford. I am based in the [Human-Centred Computing](https://hcc.cs.ox.ac.uk/) research theme.
 
 Additionally, I lead the [Responsible Technology Institute Student Network](https://www.rti.ox.ac.uk/student-network/), an interdisciplinary and international student-led organisation that connects graduate students who share an interest in responsible innovation.
 

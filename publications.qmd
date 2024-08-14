@@ -3,8 +3,10 @@ title: "Research"
 output: html_document
 ---
 
-**Reinmund, Tyler**, Lars Kunze, and Marina Jirotka. 2024. "Transitioning Towards a Proactive Practice: A Longitudinal Field Study on the Implementation of a ML System in Adult Social Care" *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*
+1. **Reinmund, Tyler**, Lars Kunze, and Marina Jirotka. 2024. "[Transitioning Towards a Proactive Practice: A Longitudinal Field Study on the Implementation of a ML System in Adult Social Care](https://doi.org/10.1145/3613904.3642247)" *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*.
 
-**Reinmund, Tyler**, Pericle Salvini, Lars Kunze, Marina Jirotka, and Alan F. T. Winfield. 2023. "Variable Autonomy Through Responsible Robotics: Design Guidelines and Research Agenda." *ACM Transactions on Human-Robot Interaction*. <https://doi.org/10.1145/3636432>.
+2. Efimia Panagiotaki, **Tyler Reinmund**, Stephan Mouton, Luke Pitt, Arundathi Shaji Shanthini, Wayne Tubby, Matthew Towlson, Samuel Sze, Brian Liu, Chris Prahacs, Daniele De Martini, Lars Kunze. 2024. "[RobotCycle: Assessing Cycling Safety in Urban Environments](https://doi.org/10.1109/IV55156.2024.10588375)" *2024 IEEE Intelligent Vehicles Symposium (IV)*.
 
-**Reinmund, Tyler**. 2023. "Designing Data Science Software for Social Care Organisations." In *Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*. <https://doi.org/10.1145/3544549.3577062>.
+3. **Reinmund, Tyler**, Pericle Salvini, Lars Kunze, Marina Jirotka, and Alan F. T. Winfield. 2023. "[Variable Autonomy Through Responsible Robotics: Design Guidelines and Research Agenda](https://dl.acm.org/doi/pdf/10.1145/3636432)" *ACM Transactions on Human-Robot Interaction*.
+
+4. **Reinmund, Tyler**. 2023. "[Designing Data Science Software for Social Care Organisations](https://doi.org/10.1145/3544549.3577062)" *Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems*.
