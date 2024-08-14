@@ -23,11 +23,7 @@ about:
     <i class="ai bi-envelope" role='img' aria-label='email'></i>
 </a>
 
-<a class="btn btn-outline-dark", href="https://twitter.com/tyler_reinmund" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-twitter" role='img' aria-label='Twitter'></i>
-</a>
-
-<a class="btn btn-outline-dark", href="assets/CV-02-24.pdf" target="_blank" rel="noopener noreferrer">
+<a class="btn btn-outline-dark", href="assets/CV-08-24.pdf" target="_blank" rel="noopener noreferrer">
     <i class="ai ai-cv-square" role='img' aria-label='CV'></i>
 </a>
 </div>
@@ -37,13 +33,9 @@ about:
 
 
 
-I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/).
+I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/). My work sits at the interaction of human-computer interaction (HCI), machine learning (ML), and science and technology studies (STS).
 
-My research begins from the premise that we, as people, have complex relationships with technology. We shape it; it shapes us. This relationship has both positive and negative effects for our societies and the environment. And for better or worse, those outcomes are experienced in different ways by different people.
-
-From this understanding, I study how we can direct the practice of technology development, and in turn its products, along socially desirable and environmentally aware paths. Currently, I am exploring these ideas in the design of machine learning systems.
-
-
+I am writing my thesis on the challenges that occur as people attempt to incorporate machine learning technologies into health and social care pathways.
 
 ```{=html}
 <br/>
