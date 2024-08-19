@@ -33,7 +33,7 @@ about:
 
 
 
-I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/). My work sits at the interaction of human-computer interaction (HCI), machine learning (ML), and science and technology studies (STS).
+I am a doctoral researcher in the [Human Centred Computing](https://hcc.cs.ox.ac.uk/) group at the [University of Oxford](https://www.ox.ac.uk/). My work sits at the intersection of human-computer interaction (HCI), machine learning (ML), and science and technology studies (STS).
 
 I am writing my thesis on the challenges that occur as people attempt to incorporate machine learning technologies into health and social care pathways.
 
