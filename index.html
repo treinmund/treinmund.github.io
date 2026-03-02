@@ -1,29 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <script type="text/javascript">
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
-          return s.replace(/~and~/g, '&') 
-        }).filter(function(v) {
-          return v !== ''
-        }).reduce(function(res, p) {
-          var kv = p.split('=');
-          res[kv[0]] = kv[1];
-          return res;
-        }, {});
-  
-        if (decoded.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (decoded.p || '') +
-            (decoded.q ? ('?' + decoded.q) : '') +
-            l.hash
-          );
-        }
+     <script type="text/javascript">
+  (function(l) {
+    if (l.search[1] === '/' ) {
+      var decoded = l.search.slice(1).split('&').map(function(s) { 
+        return s.replace(/~and~/g, '&') 
+      }).filter(function(v) {
+        return v !== ''
+      }).reduce(function(res, p) {
+        var kv = p.split('=');
+        res[kv[0]] = kv[1];
+        return res;
+      }, {});
+
+      if (decoded.p !== undefined) {
+        // This is the magic line that changes the URL back to /research 
+        // without reloading the page again.
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + (decoded.p || '') +
+          (decoded.q ? ('?' + decoded.q) : '') +
+          l.hash
+        );
       }
-    }(window.location))
-  </script>
+    }
+  }(window.location))
+</script>
     
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
