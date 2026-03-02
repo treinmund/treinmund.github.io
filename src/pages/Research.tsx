@@ -5,35 +5,27 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 
 const projects = [
   {
-    title: "Fairness-Aware Machine Learning in Clinical Decision Support",
+    title: "Addressing the Sociotechnical Challenges of Machine Learning",
     abstract:
-      "Investigating bias mitigation strategies in ML models used for healthcare triage, with a focus on demographic parity and equalized odds across patient subgroups.",
-    tags: ["AI Ethics", "Healthcare", "Fairness"],
-    paper: "#",
-    site: "#",
-  },
-  {
-    title: "Designing Explainable AI Interfaces for Non-Expert Users",
-    abstract:
-      "A mixed-methods study on how visual explanations of model predictions affect trust and comprehension among end-users with no technical background.",
-    tags: ["Explainability", "HCI", "User Studies"],
-    paper: "#",
+      "Creating frameworks and methods for healthcare and social welfare teams to address sociotechnical challenges in machine learning deployments.",
+    tags: ["Responsible AI", "Healthcare", "Social Welfare", "HCI"],
+    paper: "https://doi.org/10.1145/3772318.3790547",
     site: null,
   },
   {
-    title: "Participatory Design of Community Data Dashboards",
+    title: "The Responsible Use of Generative AI in Long-term Care",
     abstract:
-      "Co-designing interactive data dashboards with community stakeholders to support evidence-based decision-making in urban planning.",
-    tags: ["Participatory Design", "Data Viz", "Civic Tech"],
-    paper: "#",
-    site: "#",
+      "Co-producing a care-centric approach to responsible AI for long-term care in the UK.",
+    tags: ["Responsible AI", "Social Welfare", "Co-production"],
+    paper: "https://doi.org/10.1016/j.lanhl.2026.100817",
+    site: null,
   },
   {
-    title: "Large Language Models and Academic Integrity",
+    title: "Responsible Innovation for Research into Variable Autonomy Robotics",
     abstract:
-      "Examining the pedagogical implications of LLM-generated text in higher education and proposing frameworks for responsible integration.",
-    tags: ["LLMs", "Education", "Policy"],
-    paper: "#",
+      "Defining a research agenda grounded in responsible innovation for variable autonomy robotics.",
+    tags: ["Responsible Innovation", "Robotics"],
+    paper: "https://doi.org/10.1145/3636432",
     site: null,
   },
 ];
@@ -43,10 +35,10 @@ const Research = () => {
     <section className="container py-24">
       <div className="mx-auto max-w-4xl">
         <h1 className="animate-fade-in-up font-display text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
-          Research
+          Work
         </h1>
         <p className="animate-fade-in-up delay-100 mt-4 text-lg text-muted-foreground">
-          Selected projects spanning AI ethics, human-computer interaction, and civic technology.
+          Selected projects spanning responsible AI, human-computer interaction, and public sector technology.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
