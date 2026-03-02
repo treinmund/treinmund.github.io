@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 
 const links = [
   { to: "/", label: "Home" },
-  { to: "/research", label: "Research" },
+  { to: "/research", label: "My Work" },
   { to: "/resume", label: "Resume" },
   { to: "/contact", label: "Contact" },
 ];
