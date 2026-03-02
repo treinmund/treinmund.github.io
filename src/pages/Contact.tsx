@@ -7,24 +7,50 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: BookOpen, href: "https://scholar.google.com", label: "Google Scholar" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/tyler-reinmund/", label: "LinkedIn" },
+  { icon: BookOpen, href: "https://scholar.google.com/citations?user=0jSTrAwAAAAJ&hl=en", label: "Google Scholar" },
 ];
 
 const Contact = () => {
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate submission
-    setTimeout(() => {
-      toast({ title: "Message sent!", description: "Thank you for reaching out. I'll get back to you soon." });
-      (e.target as HTMLFormElement).reset();
+
+    // Get the form data
+    const formData = new FormData(e.currentTarget);
+    
+    // REPLACE 'YOUR_FORMSPREE_ID' with your actual ID from Formspree
+    try {
+      const response = await fetch("https://formspree.io/f/xvzbjzrn", {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        toast({ 
+          title: "Message sent!", 
+          description: "Thank you for reaching out. I'll get back to you soon." 
+        });
+        (e.target as HTMLFormElement).reset();
+      } else {
+        const data = await response.json();
+        throw new Error(data.error || "Submission failed");
+      }
+    } catch (error) {
+      toast({ 
+        title: "Submission Error", 
+        description: "There was a problem sending your message. Please try again or contact me via LinkedIn.",
+        variant: "destructive"
+      });
+    } finally {
       setLoading(false);
-    }, 800);
+    }
   };
 
   return (
@@ -77,6 +103,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+
+    
   );
 };
 
