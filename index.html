@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-     <script type="text/javascript">
+    <script type="text/javascript">
+  // Single Page Apps for GitHub Pages
+  // This must run before any other script
   (function(l) {
     if (l.search[1] === '/' ) {
       var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -15,8 +17,7 @@
       }, {});
 
       if (decoded.p !== undefined) {
-        // This is the magic line that changes the URL back to /research 
-        // without reloading the page again.
+        console.log("Redirecting to:", decoded.p);
         window.history.replaceState(null, null,
           l.pathname.slice(0, -1) + (decoded.p || '') +
           (decoded.q ? ('?' + decoded.q) : '') +
