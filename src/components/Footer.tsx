@@ -1,9 +1,8 @@
-import { Github, Linkedin, BookOpen } from "lucide-react";
+import { Linkedin, BookOpen } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: BookOpen, href: "https://scholar.google.com", label: "Google Scholar" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/tyler-reinmund/", label: "LinkedIn" },
+  { icon: BookOpen, href: "https://scholar.google.com/citations?user=0jSTrAwAAAAJ&hl=en", label: "Google Scholar" },
 ];
 
 export function Footer() {
@@ -11,7 +10,7 @@ export function Footer() {
     <footer className="border-t border-border/40 bg-background">
       <div className="container flex flex-col items-center gap-4 py-8 md:flex-row md:justify-between">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Alex Morgan. All rights reserved.
+          © {new Date().getFullYear()} Tyler Reinmund. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           {socialLinks.map((link) => (
