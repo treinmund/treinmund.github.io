@@ -23,6 +23,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # We explicitly name it to ensure it's the only one picked up
+          name: github-pages 
           path: dist
 
   deploy:
@@ -35,3 +37,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
