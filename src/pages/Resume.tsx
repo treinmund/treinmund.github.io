@@ -5,53 +5,53 @@ import { Separator } from "@/components/ui/separator";
 
 const experience = [
   {
-    role: "Assistant Professor, Computer Science",
-    org: "University of Nordic Studies",
-    period: "2021 – Present",
-    description: "Teaching HCI and AI Ethics courses. Leading the Responsible AI Lab with 4 PhD students.",
+    role: "Research Fellow",
+    org: "Oxford Centre for Technology and Development",
+    period: "2025 – Present",
+    description: null,
   },
   {
-    role: "Research Scientist",
-    org: "Civic AI Institute",
-    period: "2018 – 2021",
-    description: "Developed fairness-aware ML pipelines for public health applications. Published 8 peer-reviewed papers.",
+    role: "Responsible AI Researcher",
+    org: "Responsible Technology Institute @ Oxford",
+    period: "2021 – 2025",
+    description: null,
   },
   {
-    role: "UX Research Intern",
-    org: "DesignLab Inc.",
-    period: "Summer 2017",
-    description: "Conducted usability studies and contributed to the redesign of an enterprise analytics dashboard.",
+    role: "Consultant / Senior Consultant",
+    org: "Deloitte",
+    period: "2016 – 2019",
+    description: null,
   },
 ];
 
 const education = [
   {
-    degree: "Ph.D. in Human-Computer Interaction",
-    school: "MIT Media Lab",
-    period: "2014 – 2018",
+    degree: "DPhil in Computer Science",
+    school: "University of Oxford",
+    period: "2021 – 2025",
   },
   {
-    degree: "M.S. in Computer Science",
-    school: "Stanford University",
-    period: "2012 – 2014",
+    degree: "MSc in Science, Technology, and Society",
+    school: "University College London",
+    period: "2020 – 2021",
   },
   {
-    degree: "B.S. in Information Science",
-    school: "University of Michigan",
-    period: "2008 – 2012",
+    degree: "Masters of Business Administration",
+    school: "University of Oxford",
+    period: "2019 – 2020",
   },
-];
-
-const skills = [
-  "Python", "R", "TypeScript", "React", "Machine Learning",
-  "User Research", "Qualitative Analysis", "Data Visualization",
-  "Experiment Design", "Technical Writing",
+    {
+    degree: "B.S. in Biomedical Engineering",
+    school: "Rensselaer Polytechnic Institute",
+    period: "2012 – 2016",
+  },
 ];
 
 const publications = [
-  "Morgan, A. et al. (2023). 'Fairness Metrics in Clinical ML: A Comparative Study.' ACM CHI.",
-  "Morgan, A. & Lee, J. (2022). 'Explaining AI to Non-Experts: A Visual Approach.' IEEE VIS.",
-  "Morgan, A. (2021). 'Participatory Data Dashboards for Urban Planning.' CSCW.",
+  "Green, C., Reinmund, T., Hamblin, K. and Sinha, S., 'The responsible use of AI in the provision of long-term care for older people: A care-centric approach', The Lancet Healthy Longevity, 2026.",
+  "Reinmund, T., Kunze, L., and Jirotka, M., 'Sociotechnical Challenge Modeling: A Design Method for Responsible AI in Healthcare and Social Welfare', in Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, 2026.",
+  "Reinmund, T., Kunze, L., and Jirotka, M., 'Transitioning Towards a Proactive Practice: A Longitudinal Field Study on the Implementation of a ML System in Adult Social Care', in Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems, 2024.",
+  "Reinmund, T., Salvini, P., Kunze, L., Jirotka, M., and Winfield, A., 'Variable Autonomy Through Responsible Robotics: Design Guidelines and Research Agenda', ACM Transactions on Human-Robot Interaction, 2024."
 ];
 
 const Resume = () => {
@@ -64,13 +64,22 @@ const Resume = () => {
               Curriculum Vitae
             </h1>
             <p className="animate-fade-in-up delay-100 mt-2 text-lg text-muted-foreground">
-              Dr. Alex Morgan
+              Tyler Reinmund
             </p>
           </div>
-          <Button variant="outline" className="animate-fade-in-up delay-100 active:scale-[0.98] transition-transform">
-            <Download className="mr-2 h-4 w-4" />
-            Download PDF
-          </Button>
+          <Button 
+              asChild // This is important! It tells the button to behave like the child <a> tag
+              variant="outline" 
+              className="animate-fade-in-up delay-100 active:scale-[0.98] transition-transform"
+            >
+              <a 
+                href="/Tyler Reinmund CV 2026.pdf" 
+                download="Tyler Reinmund CV 2026.pdf"
+              >
+                <Download className="mr-2 h-4 w-4" />
+                Download PDF
+              </a>
+            </Button>
         </div>
 
         <Separator className="my-10" />
@@ -108,23 +117,6 @@ const Resume = () => {
                 <h3 className="font-sans text-base font-semibold text-foreground">{item.degree}</h3>
                 <p className="text-sm text-muted-foreground">{item.school} · {item.period}</p>
               </div>
-            ))}
-          </div>
-        </div>
-
-        <Separator className="my-10" />
-
-        {/* Skills */}
-        <div className="animate-fade-in-up delay-400">
-          <div className="flex items-center gap-2 text-foreground">
-            <Wrench className="h-5 w-5" />
-            <h2 className="font-display text-2xl font-semibold">Skills</h2>
-          </div>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {skills.map((skill) => (
-              <Badge key={skill} variant="secondary" className="text-sm">
-                {skill}
-              </Badge>
             ))}
           </div>
         </div>
