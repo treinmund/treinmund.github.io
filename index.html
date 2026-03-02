@@ -7,6 +7,30 @@
     <meta name="description" content="Personal portfolio of Tyler Reinmund — researcher, practitioner, and educator specializing in human-computer interaction and responsible AI." />
     <meta name="author" content="Tyler Reinmund" />
 
+    <script type="text/javascript">
+  (function(l) {
+    if (l.search[1] === '/' ) {
+      var decoded = l.search.slice(1).split('&').map(function(s) { 
+        return s.replace(/~and~/g, '&') 
+      }).filter(function(v) {
+        return v !== ''
+      }).reduce(function(res, p) {
+        var kv = p.split('=');
+        res[kv[0]] = kv[1];
+        return res;
+      }, {});
+
+      if (decoded.p !== undefined) {
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + (decoded.p || '') +
+          (decoded.q ? ('?' + decoded.q) : '') +
+          l.hash
+        );
+      }
+    }
+  }(window.location))
+</script>
+
     <meta property="og:title" content="Tyler Reinmund" />
     <meta property="og:description" content="Personal portfolio showcasing research, publications, and professional experience." />
     <meta property="og:type" content="website" />
