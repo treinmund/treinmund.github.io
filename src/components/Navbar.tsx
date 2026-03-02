@@ -26,7 +26,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-white">
       <div className="container flex h-16 items-center justify-between">
         <NavLink to="/" className="font-display text-xl font-semibold tracking-tight text-foreground">
-          Alex Morgan
+          Tyler Reinmund
         </NavLink>
 
         {/* Desktop nav */}
