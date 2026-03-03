@@ -10,7 +10,7 @@ const projects = [
       "Creating frameworks and methods for healthcare and social welfare teams to address sociotechnical challenges in machine learning deployments.",
     tags: ["Responsible AI", "Healthcare", "Social Welfare", "HCI"],
     paper: "https://doi.org/10.1145/3772318.3790547",
-    site: null,
+    site: "https://treinmund.quarto.pub/sociotechnical-challenge-modelling/",
   },
   {
     title: "The Responsible Use of Generative AI in Long-term Care",
